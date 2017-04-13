@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.AppDirect.Tests.PagesTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.AppDirect.Tests.PagesTest">
+        <methods>
+          <include name="StartBrowser"/>
+          <include name="SignUpPageTest"/>
+          <include name="HomePageTest"/>
+          <include name="EmailPage"/>
+        </methods>
+      </class> <!-- com.AppDirect.Tests.PagesTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.AppDirect.Tests.PagesTest] -->
